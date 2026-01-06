@@ -2,7 +2,7 @@ import express from 'express';
 import { db } from './db.js';
 
 const app = express();
-const PORT = 4444;
+const PORT = 4000;
 
 // JSON body 파싱
 app.use(express.json());
