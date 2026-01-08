@@ -12,7 +12,7 @@ app.get('/hello', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-  res.send('Hello mecanderWorld');
+  res.send('Hello mecander   World');
 });
 
 app.get('/user', (req, res) => {
@@ -24,7 +24,7 @@ app.get('/main', (req, res) => {
 });
 
 app.get('/api/data', (req, res) => {
-  res.send('data~');
+  res.send('All data is mine');
 });
 
 app.get('/ping', async (req, res) => {
@@ -65,8 +65,7 @@ app.get('/users/:id', async (req, res) => {
 
 /**
  * 회원가입 (INSERT)
- * body: { "username": "abc", "password": "1234" }
- */
+ * body:  
 app.post('/users', async (req, res) => {
   const { username, password } = req.body;
 

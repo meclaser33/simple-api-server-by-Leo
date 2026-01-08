@@ -5,7 +5,7 @@ export const db = await mysql.createPool({
   user: 'root',
   password: '1234',
   port: 3306,
-  database: 'elice', // 실제 DB명으로 바꿔
+  database: 'mec', // 실제 DB명으로 바꿔
   waitForConnections: true,
   connectionLimit: 10,
 });
