@@ -63,9 +63,9 @@ app.get('/users/:id', async (req, res) => {
   res.json(rows[0]);
 });
 
-/**
+/** 
  * 회원가입 (INSERT)
- * body:  
+ * body:  */
 app.post('/users', async (req, res) => {
   const { username, password } = req.body;
 
