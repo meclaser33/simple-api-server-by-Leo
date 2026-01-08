@@ -11,6 +11,18 @@ app.get('/hello', (req, res) => {
   res.send('Hello World');
 });
 
+app.get('/', (req, res) => {
+  res.send('Hello mecanderWorld');
+});
+
+app.get('/user', (req, res) => {
+  res.send('Hello user World');
+});
+
+app.get('/main', (req, res) => {
+  res.send('This is main page');
+});
+
 app.get('/api/data', (req, res) => {
   res.send('data~');
 });
